@@ -1,0 +1,130 @@
+.single_land{
+  width: 100%;
+  height: 200px;
+  margin-top: 10px;
+  box-shadow: 0 0 3px gray;
+  padding:5px;
+  border-radius: 3px;
+}
+.single_land .relative{
+  float: left;
+  top: -0px;
+  background: none;
+  margin-left: 15px;
+  padding-top: 0px;
+}
+#single{
+  float: left;
+  width: 60%;
+}
+.search{
+  width: 30%;
+  padding:10px;
+  height: auto;
+  float: left;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 2px green;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.search h3{
+  font-size: 15px!important;
+  text-align: left;
+  padding-left: 10px;
+  border-left: solid 2px green;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.lands{
+  margin-left: 10px;
+  width: 65%;
+  padding: 10px;
+  float: left;
+  height: auto;
+}
+.midmid{
+  width:70%;
+  margin:auto;
+  height: auto;
+  padding:3px;
+  float: left;
+  margin-left: 15%;
+  padding-bottom: 50px;
+}
+.relative button{
+  padding:10px;
+  border:none;
+  border-radius: 100px;
+  box-shadow: 0 0 3px green;
+  background: green;
+  color: white;
+  width: 100px;
+}
+.search form input{
+  width: 90%;
+  margin-top: 10px;
+  padding:10px;
+  border:solid thin green;
+  border-radius: 3px;
+  font-family: 'Quicksand', sans-serif;
+}
+.search form{
+  margin-top: -10px;
+}
+.search form button{
+  padding:10px;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  border:none;
+  border-radius: 3px;
+  background: green;
+  color:white;
+  width: 100px;
+}
+.single_land_detail{
+  width: 100%;
+  padding:10px;
+  box-shadow: 0 0 2px green;
+  border-radius: 3px;
+  height: 600px;
+  margin-top: 10px;
+}
+.single_land_detail img{
+  width: 100%!important;
+  height: 400px!important;
+}
+.request{
+  width: 10%;
+  height: 10px;
+  float: left;
+}
+.morelands{
+  width: 100%;
+  height: 55px;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 3px green;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+.morelands img{
+  width: 30%;
+  object-fit: cover;
+  height: 100%;
+  float: left;
+  margin-left: 5px;
+}
+.morelands h5{
+  margin-top: 0px;
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+.morelands h5:last-child{
+  top: -10px;
+}
+a{
+  text-decoration: none;
+  color: green;
+}
